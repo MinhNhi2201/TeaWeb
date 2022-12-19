@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #282828;
+  list-style: none;
+  outline: none;
+}
+:root {
+  --f-hovercolor: #57915e;
+}
+
+body,
+html {
+  font-family: "Roboto", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  gap: 5rem;
+  margin-inline: 50px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container-item {
+  width: 100%;
+  font-size: 30px;
+}
+.left {
+  flex-basis: 75%;
+}
+.right {
+  flex-basis: 25%;
+}
+
+/* Banner */
+#banner {
+  position: relative;
+  width: 80%;
+  margin: 10px auto;
+}
+
+#banner img {
+  width: 100%;
+  height: 70%;
+  max-width: 1500px;
+}
+
+/* Content */
+
+/* Tieu de */
+.tieude1 {
+  text-align: end;
+  text-transform: uppercase;
+  margin: 25px;
+}
+.tieude1 h2 {
+  color: var(--f-hovercolor);
+  letter-spacing: 0.3rem;
+}
+.tieude1 p {
+  color: var(--f-hovercolor);
+  font-weight: bold;
+}
+.tieude2 {
+  text-align: start;
+  text-transform: uppercase;
+  margin: 25px;
+}
+.tieude2 h2 {
+  color: var(--f-hovercolor);
+  letter-spacing: 0.3rem;
+}
+.tieude2 p {
+  color: var(--f-hovercolor);
+  font-weight: bold;
+}
+#tieude1-row ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  text-align: end;
+  font-size: 20px;
+  margin: 70px 0;
+  background-color: #96b20b;
+}
+
+#tieude1-row1 {
+  flex-basis: 70%;
+}
+#li1 {
+  background-color: #faffe1;
+  padding: 20px;
+}
+#li2 {
+  background-color: #96b20b;
+  padding: 20px;
+  border-radius: 3%;
+}
+
+#li1 h4 {
+  color: var(--f-hovercolor);
+  font-size: 28px;
+}
+#tieude1-row2 {
+  flex-basis: 30%;
+}
+
+#tieude1-row ul li {
+  position: relative;
+}
+
+.btn-learn-more {
+  font-weight: bold;
+  padding: 1.05rem 2rem;
+  background: #ff8515;
+  text-transform: uppercase;
+  border-radius: 50px;
+  border: none;
+}
+.btn-learn-more a {
+  color: white;
+}
+.btn-learn-more:hover {
+  padding: 1.05rem 2.5rem;
+}
+.btn-learn-more a:hover {
+  color: var(--f-hovercolor);
+}
+
+/* content left  */
+.left ul li img {
+  width: 100%;
+}
+
+#left-big {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+#left-big li {
+  position: relative;
+  width: calc(100% / 2 - 1rem);
+}
+
+#left-big li a {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  margin: 10px 0px;
+  text-transform: uppercase;
+}
+#left-big li a:hover {
+  letter-spacing: 0.1rem;
+  color: var(--f-hovercolor);
+}
+#left-big img:hover {
+  transform: scale(1.1);
+  margin-bottom: 10px;
+}
+
+#left-small {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  background-color: #faffe1;
+}
+
+#left-small li {
+  position: relative;
+  width: calc(100% / 2 - 1rem);
+  display: flex;
+  gap: 1rem;
+}
+#left-small li img {
+  vertical-align: middle;
+  height: 50%;
+}
+#left-small a {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+#left-small a:hover {
+  color: var(--f-hovercolor);
+}
+
+/* #left-small img:hover {
+  transform: scale(1);
+} */
+#left-small p {
+  font-size: 18px;
+}
+
+/* content right */
+.danhmuc {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+.danhmuc hr {
+  margin: 15px 0px;
+  width: 150px;
+  height: 5px;
+  background-color: var(--f-hovercolor);
+}
+.danhmuc h4 {
+  color: var(--f-hovercolor);
+  font-size: 28px;
+  text-transform: uppercase;
+}
+.danhmuc ul li {
+  margin: 15px;
+  font-size: 20px;
+}
+
+.danhmuc ul li a:hover {
+  color: var(--f-hovercolor);
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+}
+#vct:hover {
+  transform: scale(1.1);
+  margin-bottom: 10px;
+}
+.danhmuc img {
+  width: 100%;
+}
+
+.danhmuc p {
+  font-size: 20px;
+}
+/* RESPONSIVE */
+/* TABLET */
+@media screen and (max-width: 992px) {
+  #left-small li {
+    position: relative;
+    width: calc(100%);
+    display: flex;
+    gap: 1rem;
+  }
+
+  #left-big li {
+    position: relative;
+    width: calc(100%);
+  }
+}
+
+/* MOBILE */
+@media screen and (max-width: 600px) {
+  #left-small li {
+    position: relative;
+    width: calc(100%);
+    display: flex;
+    gap: 1rem;
+  }
+}
