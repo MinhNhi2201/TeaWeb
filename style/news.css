@@ -6,6 +6,7 @@
   color: #282828;
   list-style: none;
   outline: none;
+  overflow-x: hidden;
 }
 :root {
   --f-hovercolor: #57915e;
@@ -14,15 +15,20 @@
 body,
 html {
   font-family: "Roboto", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 18px;
 }
 .container {
   display: flex;
   justify-content: space-around;
-  gap: 5rem;
+  gap: 3rem;
   margin-inline: 50px;
   width: 80%;
   margin: 0 auto;
 }
+/* .container .container-item {
+  width: calc(100% / 2 - 5rem);
+  font-size: 30px;
+} */
 
 .container-item {
   width: 100%;
@@ -253,10 +259,4 @@ html {
 
 /* MOBILE */
 @media screen and (max-width: 600px) {
-  #left-small li {
-    position: relative;
-    width: calc(100%);
-    display: flex;
-    gap: 1rem;
-  }
 }
