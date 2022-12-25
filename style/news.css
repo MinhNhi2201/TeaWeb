@@ -14,11 +14,12 @@
 
 body,
 html {
-  font-family: "Roboto", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 18px;
 }
 .container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   gap: 3rem;
   margin-inline: 50px;
@@ -35,7 +36,7 @@ html {
   font-size: 30px;
 }
 .left {
-  flex-basis: 75%;
+  flex-basis: 65%;
 }
 .right {
   flex-basis: 25%;
@@ -65,10 +66,16 @@ html {
 .tieude1 h2 {
   color: var(--f-hovercolor);
   letter-spacing: 0.3rem;
+  visibility: visible;
+  animation-duration: 1000ms;
+  animation-name: slideInDown;
 }
 .tieude1 p {
   color: var(--f-hovercolor);
   font-weight: bold;
+  visibility: visible;
+  animation-duration: 1000ms;
+  animation-name: slideInDown;
 }
 .tieude2 {
   text-align: start;
@@ -78,10 +85,16 @@ html {
 .tieude2 h2 {
   color: var(--f-hovercolor);
   letter-spacing: 0.3rem;
+  visibility: visible;
+  animation-duration: 2500ms;
+  animation-name: slideInDown;
 }
 .tieude2 p {
   color: var(--f-hovercolor);
   font-weight: bold;
+  visibility: visible;
+  animation-duration: 2500ms;
+  animation-name: slideInDown;
 }
 #tieude1-row ul {
   display: flex;
@@ -146,6 +159,7 @@ html {
   gap: 1rem;
   justify-content: space-between;
   margin-bottom: 100px;
+  flex-wrap: wrap;
 }
 
 #left-big li {
@@ -250,13 +264,31 @@ html {
     display: flex;
     gap: 1rem;
   }
-
-  #left-big li {
-    position: relative;
-    width: calc(100%);
-  }
 }
 
 /* MOBILE */
 @media screen and (max-width: 600px) {
+  #left-big li {
+    position: relative;
+    width: calc(100%);
+  }
+  #left-small li {
+    position: relative;
+    width: calc(100%);
+    display: flex;
+    gap: 1rem;
+  }
+
+  .container-item {
+    width: 100%;
+  }
+  .left {
+    flex-basis: 100%;
+  }
+  .right {
+    flex-basis: 100%;
+  }
+  .tieude1-row2 {
+    display: none;
+  }
 }

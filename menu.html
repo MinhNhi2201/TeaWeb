@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/animate.css">
     <link rel="stylesheet" href="./style/menu.css">
-    <title>Document</title>
+    <title>Menu</title>
 </head>
 <body>
     
@@ -24,6 +25,13 @@
           
         </div>
         <ul>
+          <li>
+            <div class="img-menu"><img src="./images/drink/travietquoc.png" alt="" srcset="" /></div>
+            <p class="name">Trà Việt Quốc</p>
+            <p class="position">Giá: 38 000 vnđ</p>
+      
+            <button class="btn-contact">Mua ngay</button>
+          </li>
           <li>
             <div class="img-menu"><img src="./images/drink/trachanhmatong.png" alt="" srcset="" /></div>
             <p class="name">Trà chanh mật ong</p>
@@ -45,13 +53,7 @@
         
               <button class="btn-contact">Mua ngay</button>
             </li>
-            <li>
-              <div class="img-menu"><img src="./images/drink/travietquoc.png" alt="" srcset="" /></div>
-              <p class="name">Trà Việt Quốc</p>
-              <p class="position">Giá: 38 000 vnđ</p>
-        
-              <button class="btn-contact">Mua ngay</button>
-            </li>
+            
         </ul>
     </div>
 
@@ -66,28 +68,28 @@
         </div>
         <ul>
           <li>
-            <div class="img-menu"><img src="./images/drink/cafe1.png" alt="" srcset="" /></div>
+            <a class="img-menu"><img src="./images/drink/cafe1.png" alt="" srcset="" /></a>
             <p class="name">Cafe Socola </p>
             <p class="position">Giá: 35 000 vnđ</p>
         
             <button class="btn-contact">Mua ngay</button>
           </li>
           <li>
-              <div class="img-menu"><img src="./images/drink/cafe2.png" alt="" srcset="" /></div>
+              <a class="img-menu"><img src="./images/drink/cafe2.png" alt="" srcset="" /></a>
               <p class="name">Cookie đá xay</p>
               <p class="position">Giá: 38 000 vnđ</p>
         
               <button class="btn-contact">Mua ngay</button>
             </li>
             <li>
-              <div class="img-menu"><img src="./images/drink/cafe3.png" alt="" srcset="" /></div>
+              <a class="img-menu"><img src="./images/drink/cafe3.png" alt="" srcset="" /></a>
               <p class="name">Cafe nâu đá</p>
               <p class="position">Giá: 25 000 vnđ</p>
         
               <button class="btn-contact">Mua ngay</button>
             </li>
             <li>
-              <div class="img-menu"><img src="./images/drink/cafe4.png" alt="" srcset="" /></div>
+              <a class="img-menu"><img src="./images/drink/cafe4.png" alt="" srcset="" /></a>
               <p class="name">Cafe Latte</p>
               <p class="position">Giá: 30 000 vnđ</p>
         
@@ -98,7 +100,7 @@
 
 
         <!-- TRÀ HOA QUẢ -->
-        <div class="menu-item">
+    <div class="menu-item">
             <div class="banner-menu">
                 <img src="./images/smoothiesbanner.jpg"></img>
                 <p class="decription">
@@ -135,9 +137,59 @@
                   <button class="btn-contact">Mua ngay</button>
                 </li>
             </ul>
-        </div>
+    </div>
+
+    <!-- mobile
+    <div class="w3-container">
+      <h2>Slideshow Indicators</h2>
+      <p>An example of using buttons to indicate how many slides there are in the slideshow, and which slide the user is currently viewing.</p>
+    </div>
     
-  </div>
+    <div id="menu-responsive">    
+        <div class="w3-content w3-display-container" style="width:100%">
+          <img class="mySlides" src="./images/drink/cafe1.png" style="width:100%">
+          <img class="mySlides" src="./images/drink/cafe2.png" style="width:100%">
+          <img class="mySlides" src="./images/drink/cafe3.png" style="width:100%">
+          <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+            <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+            <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+          </div>
+      </div>
+    </div>
+    
+    <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function currentDiv(n) {
+      showDivs(slideIndex = n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" w3-white", "");
+      }
+      x[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " w3-white";
+    }
+    </script>
+     -->
+</div>
   
 </body>
 </html>
