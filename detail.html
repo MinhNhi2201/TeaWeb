@@ -17,7 +17,23 @@
   <body>
     <div class="container">
       <div class="img container-item">
-        <img src="./images/drink/travietquat-detail.png" alt="" srcset="" />
+        <div class="img-big">
+          <img src="./images/drink/travietquat-detail.png" id="imgBox" />
+        </div>
+        <div class="img-small">
+          <img
+            src="./images/drink/travietquat-detail.png"
+            onclick="myFunction(this)"
+          />
+          <img
+            src="./images/drink/travietquat-detail2.png"
+            onclick="myFunction(this)"
+          />
+          <img
+            src="./images/drink/travietquat-detail.png"
+            onclick="myFunction(this)"
+          />
+        </div>
       </div>
       <div class="detail container-item">
         <h2>Trà việt quốc</h2>
@@ -36,5 +52,11 @@
         <p class="addd"><b>Thanh toán tại nhà:</b> Nhanh chóng và an toàn</p>
       </div>
     </div>
+    <script>
+      function myFunction(smallImg) {
+        var fullImg = document.getElementById("imgBox");
+        fullImg.src = smallImg.src;
+      }
+    </script>
   </body>
 </html>

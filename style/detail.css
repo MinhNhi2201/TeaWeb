@@ -23,8 +23,23 @@ html {
 .container .container-item {
   width: calc(100% / 2 - 2rem);
 }
-.img img {
+.img .img-big img {
   width: 80%;
+}
+.img .img-small {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 60%;
+  margin: 0 auto;
+  max-height: 170px;
+}
+
+.img .img-small img {
+  width: 40%;
+  cursor: pointer;
+}
+.img .img-small img:hover {
+  opacity: 0.6;
 }
 
 .detail p {
