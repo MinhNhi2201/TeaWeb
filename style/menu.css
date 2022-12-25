@@ -11,11 +11,17 @@ html {
   font-family: "Quicksand", sans-serif;
   font-size: 18px;
 }
+#menu {
+  width: 80%;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
 .banner-menu {
   text-align: center;
   width: 70%;
   margin: 0 auto;
 }
+
 .menu-item {
   margin-top: 150px;
 }
