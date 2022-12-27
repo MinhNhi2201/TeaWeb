@@ -189,7 +189,7 @@ html {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 50px;
-  background-color: #faffe1;
+  background-color: white;
 }
 
 #left-small li {
@@ -205,7 +205,7 @@ html {
 #left-small a {
   font-size: 20px;
   font-weight: bold;
-  line-height: 1.4;
+  line-height: 0.5;
 }
 #left-small a:hover {
   color: var(--f-hovercolor);

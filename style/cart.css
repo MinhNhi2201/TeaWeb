@@ -1,0 +1,151 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+
+body,
+html {
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+}
+
+/*-------------*/
+.modal-body {
+  width: 80%;
+  margin: 4% auto;
+  padding: 4% 2%;
+}
+.cart-header {
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #333;
+}
+
+.cart-column {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-right: 1.5em;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cart-row {
+  display: flex;
+}
+
+.cart-item {
+  width: 45%;
+}
+
+.cart-price {
+  width: 20%;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.cart-quantity {
+  width: 35%;
+}
+
+.cart-item-title {
+  color: #333;
+  margin-left: 0.5em;
+  font-size: 1.2em;
+}
+
+.cart-item-image {
+  width: 75px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.btn-delete:hover {
+  background-color: #4d8a54;
+  opacity: 85%;
+}
+
+.cart-quantity-input {
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  border: 1px solid #4d8a54;
+
+  color: #333;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 25px;
+}
+
+.cart-row:last-child {
+  border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+  border: none;
+}
+
+.cart-total {
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.cart-total-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: black;
+  margin-right: 20px;
+}
+
+.cart-total-price {
+  color: #eb5757;
+  font-size: 1.5em;
+}
+
+.btn-tt {
+  margin: 10px;
+  height: 60px;
+  line-height: 39px;
+  padding: 0 20px;
+  text-align: center;
+  white-space: nowrap;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #4d8a54;
+}
+.btn-tt:hover {
+  border: 1px #4d8a54 solid;
+  background-color: #fff;
+  color: #4d8a54;
+  transition: all 0.25s linear;
+}
+
+.btn-undo {
+  margin: 10px;
+  height: 60px;
+  line-height: 39px;
+  padding: 0 20px;
+  text-align: center;
+  white-space: nowrap;
+  border: none;
+  border-radius: 30px;
+  color: #4d8a54;
+  border: 1px #4d8a54 solid;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #fff;
+}
+.btn-undo:hover {
+  background-color: #4d8a54;
+  color: #fff;
+  transition: all 0.25s linear;
+}

@@ -22,10 +22,6 @@ html {
 .container .container-item {
   width: calc(100% / 2 - 2rem);
 }
-.map iframe {
-  width: 100%;
-  height: 700px;
-}
 
 .form ul,
 img {
@@ -45,7 +41,16 @@ img {
   margin: 10px;
   width: 100%;
   height: 60px;
-  border-radius: 30px;
+  padding: 20px;
+  border-color: #ebebeb;
+  font-size: 18px;
+  border: 1px solid #ebebeb;
+}
+.form ul li textarea {
+  margin: 10px;
+  width: 100%;
+  height: 60px;
+  border-radius: 15px;
   padding: 20px;
   border-color: #ebebeb;
   font-size: 18px;
@@ -53,14 +58,13 @@ img {
 
 .form ul li button {
   margin: 10px;
-
   height: 60px;
   line-height: 39px;
   padding: 0 20px;
   text-align: center;
   white-space: nowrap;
   border: none;
-  border-radius: 30px;
+  border-radius: 530px;
   color: #fff;
   font-size: 18px;
   font-weight: bold;
@@ -71,6 +75,25 @@ img {
   background-color: #fff;
   color: #4d8a54;
   transition: all 0.25s linear;
+}
+
+.donhang-li {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  text-align: center;
+  margin: 30px;
+}
+.donhang-li p {
+  display: flex;
+  justify-content: end;
+  text-align: center;
+  align-items: center;
+}
+.donhang-li button {
+  border-radius: 0px;
+  opacity: 65%;
+  background-color: #4d8a54;
 }
 
 /* RESPONSIVE */
