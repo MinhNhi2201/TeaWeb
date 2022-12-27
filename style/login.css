@@ -3,14 +3,15 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
-  color: #303433;
+  color: #4d8a54;
 }
 
 body {
   min-height: 100vh;
-  width: 100%;
+  width: 70%;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin: auto;
 }
 
 section {
@@ -48,7 +49,7 @@ section.side {
 .separator {
   width: 150px;
   height: 4px;
-  background-color: #843bc7;
+  background-color: #4d8a54;
   margin: 24px;
 }
 
@@ -57,7 +58,7 @@ section.side {
   font-size: 1.1em;
   line-height: 28px;
   margin-bottom: 30px;
-  color: #696969;
+  color: #4d8a54;
 }
 
 .login-form {
@@ -98,7 +99,7 @@ input ~ i {
 }
 
 input:focus ~ i {
-  color: #843bc7;
+  color: #4d8a54;
 }
 
 button.submit {
@@ -108,7 +109,7 @@ button.submit {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: bold;
-  background-image: linear-gradient(to right, #8b33c5, #15a0e1);
+  background-image: linear-gradient(to right, #4d8a54, #be770c);
   cursor: pointer;
   transition: opacity 0.4s;
 }
