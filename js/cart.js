@@ -6,3 +6,5 @@ for (var i = 0; i < remove_cart.length; i++) {
     button_remove.parentElement.parentElement.remove()
   })
 }
+
+       
