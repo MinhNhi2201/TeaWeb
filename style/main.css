@@ -486,8 +486,8 @@ margin-left: 60px;
 }
 
 .footer-right button:hover {
-  background-color: rgb(10, 56, 21);
-  color: #122515;
+  background-color: rgb(203, 203, 203);
+  color:  #376a3d;
   transition: all 0.25s linear;
 }
 
@@ -599,13 +599,13 @@ background-color: #c5f5ca;
 
 .btn-list {
   width: 10%;
-  
+  position: relative;
  margin: 0 auto;
   height: 45px;
   cursor: pointer;
   border: none;
   border-radius: 30px;
-
+justify-items: center;
   font-weight: bold;
   font-size: 19px;
 
@@ -614,12 +614,6 @@ background-color: #c5f5ca;
   color: #000000;
 }
 
-.button-list{
-  
- 
-
- 
-}
 
 #menu  .btn-list:hover {
   background-color: #4d8a54;
