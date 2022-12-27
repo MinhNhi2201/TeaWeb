@@ -148,6 +148,15 @@ html {
   display: flex;
 }
 
+/* Cart */
+.soluong input {
+  width: 70px !important;
+  border-radius: 0 !important;
+  background-color: #fff;
+  color: #4d8a54;
+  font-size: 20px !important;
+  border: 1px solid #4d8a54;
+}
 /* RESPONSIVE */
 /* TABLET */
 @media screen and (max-width: 992px) {

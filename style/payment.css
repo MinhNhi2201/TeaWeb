@@ -5,6 +5,7 @@
   text-decoration: none;
   list-style: none;
   outline: none;
+  overflow-x: hidden;
 }
 
 body,
@@ -143,6 +144,9 @@ img {
   .container .container-item {
     width: 100%;
   }
+  .form #h22 {
+    margin-top: 0px;
+  }
 }
 
 /* MOBILE */
@@ -163,5 +167,8 @@ img {
   }
   #donhang-li-input {
     width: 100px !important;
+  }
+  .form #h22 {
+    margin-top: 0px;
   }
 }

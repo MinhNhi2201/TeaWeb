@@ -44,7 +44,7 @@ html {
   margin: 0 auto;
   cursor: pointer;
   visibility: visible;
-  animation-duration: 3000ms;
+  animation-duration: 3500ms;
   animation-name: swing;
 }
 
