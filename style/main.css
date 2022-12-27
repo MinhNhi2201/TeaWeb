@@ -37,19 +37,16 @@
 /*navigation*/
 
 ul.sub-menu {
-  position:absolute;
+  position: absolute;
   background-color: white;
   padding: 15px;
-  
+
   list-style: none;
   display: none;
-
 }
 
-
 li:hover ul.sub-menu {
- display: block;
- 
+  display: block;
 }
 
 ul.sub-menu li {
@@ -58,24 +55,21 @@ ul.sub-menu li {
   font-size: 16px;
 }
 
-.sub-menu li :last-child{
+.sub-menu li :last-child {
   border: none;
 }
-
-
 
 .navbar {
   list-style: none;
   display: flex;
   margin-left: 100px;
-  
 }
 
-#nav-left{
+#nav-left {
   margin-top: 100px;
 }
 
-#nav-right{
+#nav-right {
   margin-top: 100px;
 }
 
@@ -85,14 +79,12 @@ ul.sub-menu li {
   display: block;
   padding-left: 40px;
   justify-content: space-between;
-position: relative;
-  
+  position: relative;
 }
 
-.sub-menu li{
+.sub-menu li {
   padding: 10px 0;
   width: 100px;
-
 }
 
 #logo {
@@ -205,92 +197,82 @@ position: relative;
 }
 
 /* THOI GIAN MO CUA*/
-.opentime{
-position: absolute;
-background-color: #4D8A54;
-width: 40%;
-padding: 60px 40px 70px 60px;
-margin: 0 80px;
+.opentime {
+  position: absolute;
+  background-color: #4d8a54;
+  width: 40%;
+  padding: 60px 40px 70px 60px;
+  margin: 0 80px;
 }
 
-.opentime button{
-    height: 50px;
-    line-height: 39px;
-    width: 200px;
-    padding: 0 20px;
-    text-align: center;
-    white-space: nowrap;
-    border: none;
-    border-radius: 40px;
-    color:#4d8a54;
-    font-size: 18px;
-    font-weight: bold;
-    background-color: white;
-   
-    position: relative;
-}
+.opentime button {
+  height: 50px;
+  line-height: 39px;
+  width: 200px;
+  padding: 0 20px;
+  text-align: center;
+  white-space: nowrap;
+  border: none;
+  border-radius: 40px;
+  color: #4d8a54;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: white;
 
+  position: relative;
+}
 
 .opentime button:hover {
-    background-color: rgb(125, 214, 146);
-    color: #122515;
-    transition: all 0.25s linear;
-  }
-
-
-  .opentime .teahousefont{
-    
-color: rgb(20, 255, 16);
-margin-left: 60px;
-
-  }
-
-
-  
-  .opentime p{
-    margin-top: -20px;
-    text-align: start;
-    color: white;
-    font-weight: bold;
-  }
-
-  .opentime h3{
-    text-align: start;
-    color: white;
-    font-weight: bold;
-    line-height: 1.5;
-  }
-
-  .opentime-img img{
-    
-    width: 26%;
-    position: relative;
-    margin-left: 790px;
-    
-  }
-
-  .opentime-all{
-   margin: 0 100px;
-   display: flex;
-   
-  }
-
-  /*menu hom nay*/
-.list-btn{
-    margin: 0 100px;
-    text-align: center;
-  
+  background-color: rgb(125, 214, 146);
+  color: #122515;
+  transition: all 0.25s linear;
 }
 
-.list-btn button{
-    height: 50px;
+.opentime .teahousefont {
+  color: rgb(20, 255, 16);
+  margin-left: 60px;
+}
+
+.opentime p {
+  margin-top: -20px;
+  text-align: start;
+  color: white;
+  font-weight: bold;
+}
+
+.opentime h3 {
+  text-align: start;
+  color: white;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.opentime-img img {
+  width: 26%;
+  position: relative;
+  margin-left: 790px;
+}
+
+.opentime-all {
+  margin: 0 100px;
+  display: flex;
+}
+
+/*menu hom nay*/
+.list-btn {
+  margin: 0 100px;
+  text-align: center;
+}
+
+.list-btn button {
+  height: 50px;
   line-height: 39px;
   width: 150px;
   padding: 0 20px;
   text-align: center;
   white-space: nowrap;
   border-width: thin;
-  
+
   border-color: darkgrey;
   border-radius: 40px;
   color: rgb(0, 0, 0);
@@ -301,29 +283,30 @@ margin-left: 60px;
   position: relative;
 }
 
-
 .list-btn button:hover {
-    background-color: #4D8A54;
-    color: #ffffff;
-    transition: all 0.25s linear;
-  }
-
-
-.list-item{
-    background-color: bisque;
-    display: flex;
-    margin: 0 120px;
-    position: relative;
-    flex-wrap: wrap;
-    
-    
+  background-color: #4d8a54;
+  color: #ffffff;
+  transition: all 0.25s linear;
 }
 
-.list-item img{
-    width: 10%;
+.list-item {
+  background-color: bisque;
+  display: flex;
+  margin: 0 120px;
+  position: relative;
+  flex-wrap: wrap;
 }
 
+.list-item img {
+  width: 10%;
+}
 
+.button-list {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+}
 
 /*above footer*/
 .above-footer {
@@ -333,7 +316,6 @@ margin-left: 60px;
 .above-footer img {
   width: 100%;
 }
-
 
 /*FOOTER*/
 
@@ -487,7 +469,7 @@ margin-left: 60px;
 
 .footer-right button:hover {
   background-color: rgb(203, 203, 203);
-  color:  #376a3d;
+  color: #376a3d;
   transition: all 0.25s linear;
 }
 
@@ -507,7 +489,6 @@ margin-left: 60px;
   margin: 0 120px;
 }
 
-
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -516,7 +497,7 @@ margin-left: 60px;
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-background-color: #c5f5ca;
+  background-color: #c5f5ca;
   color: #376a3d; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 10px; /* Some padding */
@@ -527,8 +508,6 @@ background-color: #c5f5ca;
 #myBtn:hover {
   background-color: rgb(12, 75, 30); /* Add a dark-grey background on hover */
 }
-
-
 
 .menu-item {
   padding-bottom: 70px;
@@ -596,16 +575,15 @@ background-color: #c5f5ca;
   transition: all 0.25s linear;
 }
 
-
 .btn-list {
-  width: 10%;
+  width: 15%;
   position: relative;
- margin: 0 auto;
+  margin: 0 auto;
   height: 45px;
   cursor: pointer;
   border: none;
   border-radius: 30px;
-justify-items: center;
+  justify-items: center;
   font-weight: bold;
   font-size: 19px;
 
@@ -614,13 +592,11 @@ justify-items: center;
   color: #000000;
 }
 
-
-#menu  .btn-list:hover {
+#menu .btn-list:hover {
   background-color: #4d8a54;
   color: #fff;
   transition: all 0.25s linear;
 }
-
 
 /* RESPONSIVE */
 /* TABLET */
