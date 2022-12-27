@@ -161,4 +161,7 @@ img {
   .header li {
     padding-left: 0;
   }
+  #donhang-li-input {
+    width: 100px !important;
+  }
 }
