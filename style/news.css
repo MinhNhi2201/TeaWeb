@@ -44,7 +44,6 @@ html {
 
 /* Banner */
 #banner {
-  position: relative;
   width: 80%;
   margin: 10px auto;
 }
@@ -255,6 +254,55 @@ html {
 .danhmuc p {
   font-size: 20px;
 }
+
+/* ---------------------------------Nav -------------------------------------- */
+.header1 {
+  background-color: #4d8a54;
+  font-size: 17px;
+  padding: 1px;
+  width: 100%;
+  position: sticky;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 10px;
+  color: white;
+  width: 100%;
+  margin-bottom: 0;
+  height: 80px;
+  text-align: center;
+  align-items: center;
+}
+
+.header li {
+  padding-left: 50px;
+}
+.header li a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+}
+.header li a i {
+  color: #fff;
+}
+.header li a:hover {
+  color: #333;
+}
+.head1 {
+  display: flex;
+}
+
+/* RESPONSIVE */
+/* TABLET */
+@media screen and (max-width: 992px) {
+  .containerr .container-item {
+    width: 100%;
+  }
+}
+
 /* RESPONSIVE */
 /* TABLET */
 @media screen and (max-width: 992px) {
@@ -290,5 +338,26 @@ html {
   }
   .tieude1-row2 {
     display: none;
+  }
+
+  .head1 {
+    display: none;
+  }
+
+  .header li {
+    padding-left: 0;
+  }
+
+  .header {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    margin-bottom: 0;
+    height: 80px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 }

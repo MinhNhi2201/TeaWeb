@@ -5,6 +5,7 @@
   text-decoration: none;
   list-style: none;
   outline: none;
+  overflow-x: hidden;
 }
 
 body,
@@ -148,4 +149,72 @@ html {
   background-color: #4d8a54;
   color: #fff;
   transition: all 0.25s linear;
+}
+/* -----------------------------nav----------------------------- */
+.header1 {
+  background-color: #4d8a54;
+  font-size: 17px;
+  padding: 1px;
+  width: 100%;
+  position: fixed;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 10px;
+  color: white;
+  width: 100%;
+  margin-bottom: 0;
+  height: 80px;
+  text-align: center;
+  align-items: center;
+}
+
+.header li {
+  padding-left: 50px;
+}
+.header li a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+}
+.header li a:hover {
+  color: #333;
+}
+.head1 {
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .head1 {
+    display: none;
+  }
+
+  .header li {
+    padding-left: 0;
+  }
+  body,
+  html {
+    font-family: "Quicksand", sans-serif;
+    font-size: 10px !important;
+  }
+  .modal-body {
+    margin-top: 50px;
+  }
+  .btn-delete {
+    font-size: 10px;
+    padding: 15px;
+    border: none;
+    background-color: #fff;
+  }
+  .modal-body h1 {
+    margin: 25px !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .modal-body h1 {
+    margin: 25px !important;
+  }
 }
