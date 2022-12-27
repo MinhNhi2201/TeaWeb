@@ -40,8 +40,8 @@ html {
 .img .img-small img:hover {
   opacity: 0.6;
 }
-#img-box {
-  margin-top: 150px !important;
+.img-big img {
+  margin-top: 100px !important;
 }
 
 .detail p {
