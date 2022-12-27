@@ -134,20 +134,26 @@ padding-left: 50px;
 .danhmucsp{
     font-family: 'Varela Round', sans-serif;
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
     margin-top: -50px;
     font-weight: bold;
 }
 
 .list{
     display: flex;
-   margin: auto;
-    padding: 30px ;
+   margin: 0 10%;
+   
+   padding-bottom: 30px;
+  
     
 }
 
-figcaption{
-    text-align: center;
+.list img{
+    margin-left: -20px;
+}
+
+.list figcaption{
+   text-align: center;
     font-weight: bold;
     font-size: 25px;
 }
@@ -217,6 +223,19 @@ font-size: 40px;
     margin-top: 15px;
 }
 
+/*above footer*/
+.above-footer {
+  
+    display: flex;
+   
+}
+
+.above-footer img{
+    width: 100%;
+}
+
+
+
 .footer-bg{
     background-image: url(../images/tea-herb-with-orchid-flower-bamboo-black-surface.jpg);
    position: relative;
@@ -230,7 +249,7 @@ font-size: 40px;
 
 
 .layer {
-    background-color: rgba(17, 19, 17, 0.7);
+    background-color: rgba(17, 19, 17, 0.8);
     position: absolute;
     top: 0;
     left: 0;
@@ -241,27 +260,83 @@ font-size: 40px;
 
 .footer-left{
     width: 400px;
-    background-color: aqua;
+    
 }
 
 .footer-mid{
     width: 400px;
-    background-color: aqua;
+   
+    margin-top: 128px;
 }
 
 .footer-right{
     width: 400px;
-    background-color: aqua;
+   
+    margin-top: 128px;
+}
+
+.all-footer{
+    margin-top: -100px;
 }
 
 
 #footer-content-left{
     color: white;
-   
+   position: absolute;
+   width: 350px;
+   margin-top: -30px;
+   font-size: 17px;
+   text-align: justify;
+   font-weight: bolder;
+   line-height: 1.5;
 }
+
+
+.footer-content-mid{
+    color: white;
+   position: absolute;
+   width: 300px;
+   font-weight: bolder;
+   font-size: 17px;
+   text-align: justify;
+   line-height: 1.5;
+}
+
+.footer-content-right{
+    color: white;
+   position: absolute;
+   width: 350px;
+   font-weight: bolder;
+   font-size: 17px;
+   text-align: justify;
+   line-height: 1.5;
+}
+
+
+
+ .footer-mid h2{
+    color: #4D8A54;
+    position: relative;
+    font-weight:bold;
+ 
+ }
+
+
+ .footer-right h2{
+    color: #4D8A54;
+    position: relative;
+    font-weight:bold;
+ 
+ }
+
+
+
 
 #logo-footer{
     width: 270px;
+    margin-top: -50px;
+    margin-left: -50px;
+    position: relative;
 }
 
 .all-footer{
@@ -269,4 +344,97 @@ font-size: 40px;
     margin-left: 30px;
     
 }
+
+.icon{
+    margin-top: 130px;
+    margin-left: -30px;
+}
+
+.icon i{
+padding-left: 30px;
+color: #4D8A54;
+position: relative;
+
+}
+
+.footer-mid i{
+    color: #4D8A54;
+    position: relative;
+    font-size: 20px;
+}
+
+.footer-mid p{
+    margin-left: 30px;
+   margin-top: -27px;
+   
+}
+
+.footer-right p{
+   
+    margin-top: -6px;
+   
+}
+
+.footer-right input{
+    position:absolute;
+  margin-top: -10px;
+    width: 310px;
+    height: 20px;
+    border-radius: 40px;
+    padding: 20px;
+border: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.footer-right button{
+    height: 60px;
+    line-height: 39px;
+    width: 150px;
+    padding: 0 20px;
+    text-align: center;
+    white-space: nowrap;
+    border: none;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #4d8a54;
+    margin-left: 200px;
+    margin-top: -10px;
+    position: relative;
+}
+
+
+.footer-right button:hover{
+
+  background-color: rgb(10, 56, 21);
+  color: #122515;
+  transition: all 0.25s linear;
+ 
+}
+
+
+
+.news img{
+width: 100%;
+border-radius: 5px;
+
+}
+
+.news figcaption{
+    text-align: start;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
+.news{
+    display: flex;
+    margin: 0 30px;
+    
+}
+
 
