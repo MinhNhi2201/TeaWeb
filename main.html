@@ -26,6 +26,7 @@
 
 <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
+
     <title>Tea House</title>
   </head>
   <body>
@@ -63,14 +64,15 @@
               <a>Giới thiệu</a>
             </li>
 
-            <li class="drop">
-              <a href="">Sản phẩm</a>
-              <ul class="subnav">
-                <li><a href="">Cà phê</a></li>
-                <li><a href="">Bánh ngọt</a></li>
-                <li><a href="">Smoothies</a></li>
-                <li><a href="">Trà hoa quả</a></li>
-              </ul>
+            <li >
+              <a>Sản phẩm</a>
+            <ul class="sub-menu">
+              <li a href="">Cà phê</li>
+              <li a href="">Bánh ngọt</li>
+              <li a href="">Smoothies</li>
+              <li a href="">Trà hoa quả</li>
+            </ul>
+
             </li>
           </span>
 
@@ -89,6 +91,10 @@
           </span>
         </ul>
       </div>
+
+
+
+
 
       <img id="slider" src="./images/slider_1.webp" alt="" />
 
@@ -185,66 +191,115 @@
         </div>
       </div>
       <!--MENU HOM NAY-->
-      <div class="tintucnoibat">
-        <p class="teahousefont">Tea House</p>
-        <p class="danhmucsp">MENU HÔM NAY</p>
-      </div>
-
-      <div class="list-btn">
-        <button>Trà nóng</button>
-        <button>Trà hoa quả</button>
-        <button>Smoothies</button>
-        <button>Bánh ngọt</button>
-      </div>
-
-      <div class="list-item">
-        <figure>
-          <img src="./images/drink/phuc bon tu.webp" alt="">
-          <figcaption>TRÀ PHÚC BỒN TỬ <br>
-          Giá: 40.000đ</figcaption>
-        </figure>
-
-        <figure>
-          <img src="./images/drink/vai.webp" alt="">
-          <figcaption>TRÀ VẢI <br>
-          Giá: 40.000đ</figcaption>
-        </figure>
-
-        <figure>
-          <img src="./images/drink/cam dao.webp" alt="">
-          <figcaption>TRÀ CAM ĐÀO<br>
-          Giá: 40.000đ</figcaption>
-        </figure>
-
-        <figure>
-          <img src="./images/drink/tao.webp" alt="">
-          <figcaption>TRÀ TÁO<br>
-          Giá: 40.000đ</figcaption>
-        </figure>
-
-        <figure>
-          <img src="./images/drink/tao.webp" alt="">
-          <figcaption>TRÀ TÁO<br>
-          Giá: 40.000đ</figcaption>
-        </figure>
-
-        <figure>
-          <img src="./images/drink/tao.webp" alt="">
-          <figcaption>TRÀ TÁO<br>
-          Giá: 40.000đ</figcaption>
-        </figure>
-
-        <figure>
-          <img src="./images/drink/tao.webp" alt="">
-          <figcaption>TRÀ TÁO<br>
-          Giá: 40.000đ</figcaption>
-        </figure>
-
-        <figure>
-          <img src="./images/drink/tao.webp" alt="">
-          <figcaption>TRÀ TÁO<br>
-          Giá: 40.000đ</figcaption>
-        </figure>
+      <div id="menu">
+        <div class="tintucnoibat">
+          <p class="teahousefont">Tea House</p>
+          <p class="danhmucsp">MENU HÔM NAY</p>
+        </div>
+       
+        <div class="menu-item">
+          <ul>
+            <li>
+              <div class="img-menu">
+                <img src="./images/drink/phuc bon tu.webp" alt="" srcset="" />
+              </div>
+              <p class="name">TRÀ PHÚC BỒN TỬ</p>
+              <p class="position">Giá: 40.000 vnđ</p>
+  
+              <button class="btn-contact">Mua ngay</button>
+            </li>
+            <li>
+              <div class="img-menu">
+                <img src="./images/drink/vietquat.webp" alt="" srcset="" />
+              </div>
+              <p class="name">TRÀ VIỆT QUẤT</p>
+              <p class="position">Giá: 40.000 vnđ</p>
+  
+              <button class="btn-contact">Mua ngay</button>
+            </li>
+            <li>
+              <div class="img-menu">
+                <img src="./images/drink/vai.webp" alt="" srcset="" />
+              </div>
+              <p class="name">TRÀ VẢI</p>
+              <p class="position">Giá: 40.000 vnđ</p>
+  
+              <button class="btn-contact">Mua ngay</button>
+            </li>
+            <li>
+              <div class="img-menu">
+                <img
+                  src="./images/drink/dautay.webp"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <p class="name">TRÀ DÂU TÂY</p>
+              <p class="position">Giá: 40.000 vnđ</p>
+  
+              <button class="btn-contact">Mua ngay</button>
+            </li>
+  
+  
+  
+  
+            <li>
+              <div class="img-menu">
+                <img
+                  src="./images/drink/cam dao.webp"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <p class="name">TRÀ CAM ĐÀO</p>
+              <p class="position">Giá: 45.000 vnđ</p>
+  
+              <button class="btn-contact">Mua ngay</button>
+            </li>
+  
+            <li>
+              <div class="img-menu">
+                <img
+                  src="./images/drink/xoai.webp"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <p class="name">TRÀ XOÀI</p>
+              <p class="position">Giá: 35.000 vnđ</p>
+  
+              <button class="btn-contact">Mua ngay</button>
+            </li>
+  
+            <li>
+              <div class="img-menu">
+                <img
+                  src="./images/drink/tao.webp"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <p class="name">TRÀ TÁO</p>
+              <p class="position">Giá: 35.000 vnđ</p>
+  
+              <button class="btn-contact">Mua ngay</button>
+            </li>
+  
+            <li>
+              <div class="img-menu">
+                <img
+                  src="./images/drink/chanh.webp"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <p class="name">TRÀ CHANH</p>
+              <p class="position">Giá: 30.000 vnđ</p>
+  
+              <button class="btn-contact">Mua ngay</button>
+            </li>
+          </ul>
+        </div>
       </div>
 
 
@@ -411,8 +466,11 @@
           </div>
         </div>
       </footer>
+
+
     </div>
-   
+   <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-circle-chevron-up"></i></button>
+
 
     
     <script src="./script/main.js"></script>

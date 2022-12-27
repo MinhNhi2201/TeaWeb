@@ -5,6 +5,7 @@
 
 * {
   font-family: "Quicksand", sans-serif;
+  list-style: none;
 }
 
 .header1 {
@@ -35,51 +36,63 @@
 
 /*navigation*/
 
-.navbar li {
-  position: relative;
-}
-
-.navbar li a {
-  display: block;
-  text-decoration: none;
-
-  font-weight: bold;
-  font-size: 19px;
-}
-
-.navbar ul.subnav {
-  position: absolute;
-  background: #fdf9f9;
+ul.sub-menu {
+  position:absolute;
+  background-color: white;
+  padding: 15px;
+  
   list-style: none;
   display: none;
+
 }
 
-.navbar li:hover ul.subnav {
-  display: block;
+
+li:hover ul.sub-menu {
+ display: block;
+ 
 }
 
-.navbar ul.subnav li:hover a {
-  background-color: #ffe7e7;
-  color: rgb(10, 75, 16);
-  border-bottom: 1px solid rgb(128, 126, 128);
+ul.sub-menu li {
+  border-bottom: 1px solid rgb(181, 182, 181);
+  padding-right: 40px;
+  font-size: 16px;
 }
 
-.navbar ul.subnav li:last-child a {
+.sub-menu li :last-child{
   border: none;
 }
+
+
 
 .navbar {
   list-style: none;
   display: flex;
   margin-left: 100px;
+  
+}
+
+#nav-left{
+  margin-top: 100px;
+}
+
+#nav-right{
+  margin-top: 100px;
 }
 
 .navbar li {
   font-weight: bold;
   font-size: 19px;
-  padding-top: 100px;
+  display: block;
+  padding-left: 40px;
+  justify-content: space-between;
+position: relative;
+  
+}
 
-  padding-left: 50px;
+.sub-menu li{
+  padding: 10px 0;
+  width: 100px;
+
 }
 
 #logo {
@@ -492,4 +505,107 @@ margin-left: 60px;
 .news {
   display: flex;
   margin: 0 120px;
+}
+
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+background-color: #c5f5ca;
+  color: #376a3d; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 10px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 25px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: rgb(12, 75, 30); /* Add a dark-grey background on hover */
+}
+
+
+
+.menu-item {
+  padding-bottom: 70px;
+  margin: 0 100px;
+}
+#menu {
+  padding: 8px 16px;
+}
+#menu ul {
+  display: flex;
+  gap: 1rem;
+  padding-top: 32px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#menu ul li {
+  width: calc(100% / 4 - 1rem);
+  text-align: center;
+}
+#menu ul li img {
+  width: 45%;
+  margin: 0 auto;
+}
+
+.img-menu {
+  border: 0.5px #ebebeb solid;
+  border-radius: 20px;
+}
+.decription {
+  margin-block: 15px;
+}
+.name {
+  font-size: 20px;
+  margin: 8px 8px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.name:hover {
+  color: #4d8a54;
+  letter-spacing: 0.1rem;
+}
+.position {
+  font-size: 15px;
+  margin: 10px 0px;
+  opacity: 0.6;
+}
+
+.btn-contact {
+  width: 50%;
+  height: 45px;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+
+  font-size: 15px;
+  font-weight: bold;
+
+  border: 1px #4d8a54 solid;
+  background-color: #fff;
+  color: #4d8a54;
+}
+#menu ul li .btn-contact:hover {
+  background-color: #4d8a54;
+  color: #fff;
+  transition: all 0.25s linear;
+}
+/* RESPONSIVE */
+/* TABLET */
+@media screen and (max-width: 992px) {
+  #menu ul li {
+    width: calc(100% / 2 - 1rem);
+  }
+}
+
+/* MOBILE */
+@media screen and (max-width: 600px) {
+  #menu ul li {
+    width: calc(100%);
+  }
 }
