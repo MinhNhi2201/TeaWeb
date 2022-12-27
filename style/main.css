@@ -1,440 +1,495 @@
- @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap'); 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Satisfy&display=swap'); 
- @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 
-*{
-    font-family: 'Quicksand', sans-serif;
+* {
+  font-family: "Quicksand", sans-serif;
 }
 
-.header1{
-    background-color: #4D8A54;
-    font-size: 17px;
-    padding: 1px;
-
+.header1 {
+  background-color: #4d8a54;
+  font-size: 17px;
+  padding: 1px;
 }
 
-.header{
-   display: flex;
-   list-style: none;
-   padding: 10px;
-color: white;
-  
+.header {
+  display: flex;
+  list-style: none;
+  padding: 10px;
+  color: white;
 }
 
-.header li{
+.header li {
   padding-left: 50px;
-  
 }
-#hotline{
-    margin-left: 100px;
+#hotline {
+  margin-left: 100px;
 }
 
+.head1 {
+  display: flex;
 
-.head1{
-    display: flex;
-   
   margin-left: 510px;
-    
 }
-
 
 /*navigation*/
 
-
 .navbar li {
-    position: relative;
-  }
-  
-  .navbar li a {
-    
-    display: block;
-    text-decoration: none;
-   
-  
-    font-weight: bold;
-    font-size: 19px;
-  }
-  
-  .navbar ul.subnav {
-    
-    
-    position: absolute;
-    background: #fdf9f9;
-    list-style: none;
-    display: none;
-    
-  }
-  
-  .navbar li:hover ul.subnav {
-    display: block;
-  }
-  
- 
-  
-  .navbar ul.subnav li:hover a {
-    background-color: #ffe7e7;
-    color: rgb(10, 75, 16);
-    border-bottom: 1px solid rgb(128, 126, 128);
-  }
-  
-  .navbar ul.subnav li:last-child a {
-    border: none;
-  }
+  position: relative;
+}
 
+.navbar li a {
+  display: block;
+  text-decoration: none;
 
+  font-weight: bold;
+  font-size: 19px;
+}
 
+.navbar ul.subnav {
+  position: absolute;
+  background: #fdf9f9;
+  list-style: none;
+  display: none;
+}
 
+.navbar li:hover ul.subnav {
+  display: block;
+}
+
+.navbar ul.subnav li:hover a {
+  background-color: #ffe7e7;
+  color: rgb(10, 75, 16);
+  border-bottom: 1px solid rgb(128, 126, 128);
+}
+
+.navbar ul.subnav li:last-child a {
+  border: none;
+}
 
 .navbar {
-    list-style: none;
-    display: flex;
-   margin-left: 100px;
-    
+  list-style: none;
+  display: flex;
+  margin-left: 100px;
 }
 
-.navbar li{
-   
-   font-weight: bold;
-   font-size: 19px;
-padding-top: 100px;
+.navbar li {
+  font-weight: bold;
+  font-size: 19px;
+  padding-top: 100px;
 
-padding-left: 50px;
-
+  padding-left: 50px;
 }
 
-#logo{
-    width: 270px;
- padding-left: 80px;
- padding-right: 80px;
-   margin-top: -50px;
-   
+#logo {
+  width: 270px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-top: -50px;
 }
 
-#nav-right{
-    display: flex;
-   
+#nav-right {
+  display: flex;
 }
 
-#nav-left{
-    display: flex;
-    
+#nav-left {
+  display: flex;
 }
 
-#slider{
-    width: 100%;
+#slider {
+  width: 100%;
 }
 
-.teahousefont{
-    font-family: 'Satisfy', cursive;
-    color: #4D8B55;
-    text-align: center;
-    font-size: 50px;
+.teahousefont {
+  font-family: "Satisfy", cursive;
+  color: #4d8b55;
+  text-align: center;
+  font-size: 50px;
 }
-.danhmucsp{
-    font-family: 'Varela Round', sans-serif;
-    text-align: center;
-    font-size: 30px;
-    margin-top: -50px;
-    font-weight: bold;
-}
-
-.list{
-    display: flex;
-   margin: 0 10%;
-   
-   padding-bottom: 30px;
-  
-    
+.danhmucsp {
+  font-family: "Varela Round", sans-serif;
+  text-align: center;
+  font-size: 30px;
+  margin-top: -50px;
+  font-weight: bold;
 }
 
-.list img{
-    margin-left: -20px;
+.list {
+  display: flex;
+  margin: 0 10%;
+
+  padding-bottom: 30px;
 }
 
-.list figcaption{
-   text-align: center;
-    font-weight: bold;
-    font-size: 25px;
+.list img {
+  margin-left: -20px;
 }
 
-#tealife{
-    width: 100%;
+.list figcaption {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#tealife {
+  width: 100%;
 }
 
 .container {
-    position: relative;
-    text-align: start;
-    color: black;
-   
-  }
-
-  .left {
-    position: absolute;
-    top: 8px;
-    left: 80px;
-    
-    width: 600px;
-  }
-
-  .whyus{
-margin-top: -50px;
-font-weight: bold;
-font-size: 40px;
-  }
-
-
-  .teahousefont2{
-    font-family: 'Satisfy', cursive;
-    color: #4D8B55;
-    text-align: justify;
-    font-size: 50px;
+  position: relative;
+  text-align: start;
+  color: black;
 }
 
-.content{
-    text-align: justify ;
-    font-size: 25px;
-    line-height: 30px;
-    
-}
-.bold{
-    font-size: 25px;
-    font-weight: bold;
+.left {
+  position: absolute;
+  top: 8px;
+  left: 80px;
+
+  width: 600px;
 }
 
-.content-list{
-    width: 500px;
+.whyus {
+  margin-top: -50px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.teahousefont2 {
+  font-family: "Satisfy", cursive;
+  color: #4d8b55;
+  text-align: justify;
+  font-size: 50px;
+}
+
+.content {
+  text-align: justify;
+  font-size: 25px;
+  line-height: 30px;
+}
+.bold {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.content-list {
+  width: 500px;
 }
 
 .content-list-1 {
   display: flex;
- 
 }
 
-.content-list-1 p{
-  
-    margin-left: 80px;
-    font-size: 19px;
-   
+.content-list-1 p {
+  margin-left: 80px;
+  font-size: 19px;
 }
 
-.content-list-1 img{
-    position: absolute;
-    margin-top: 15px;
+.content-list-1 img {
+  position: absolute;
+  margin-top: 15px;
 }
 
-/*above footer*/
-.above-footer {
-  
-    display: flex;
-   
+/* THOI GIAN MO CUA*/
+.opentime{
+position: absolute;
+background-color: #4D8A54;
+width: 40%;
+padding: 60px 40px 70px 60px;
+margin: 0 80px;
 }
 
-.above-footer img{
-    width: 100%;
-}
-
-
-
-.footer-bg{
-    background-image: url(../images/tea-herb-with-orchid-flower-bamboo-black-surface.jpg);
-   position: relative;
-   background-size: cover;
-   background-repeat: no-repeat;
-   padding: 10%;
-  
-
-}
-
-
-
-.layer {
-    background-color: rgba(17, 19, 17, 0.8);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    
-}
-
-.footer-left{
-    width: 400px;
-    
-}
-
-.footer-mid{
-    width: 400px;
-   
-    margin-top: 128px;
-}
-
-.footer-right{
-    width: 400px;
-   
-    margin-top: 128px;
-}
-
-.all-footer{
-    margin-top: -100px;
-}
-
-
-#footer-content-left{
-    color: white;
-   position: absolute;
-   width: 350px;
-   margin-top: -30px;
-   font-size: 17px;
-   text-align: justify;
-   font-weight: bolder;
-   line-height: 1.5;
-}
-
-
-.footer-content-mid{
-    color: white;
-   position: absolute;
-   width: 300px;
-   font-weight: bolder;
-   font-size: 17px;
-   text-align: justify;
-   line-height: 1.5;
-}
-
-.footer-content-right{
-    color: white;
-   position: absolute;
-   width: 350px;
-   font-weight: bolder;
-   font-size: 17px;
-   text-align: justify;
-   line-height: 1.5;
-}
-
-
-
- .footer-mid h2{
-    color: #4D8A54;
-    position: relative;
-    font-weight:bold;
- 
- }
-
-
- .footer-right h2{
-    color: #4D8A54;
-    position: relative;
-    font-weight:bold;
- 
- }
-
-
-
-
-#logo-footer{
-    width: 270px;
-    margin-top: -50px;
-    margin-left: -50px;
-    position: relative;
-}
-
-.all-footer{
-    display: flex;
-    margin-left: 30px;
-    
-}
-
-.icon{
-    margin-top: 130px;
-    margin-left: -30px;
-}
-
-.icon i{
-padding-left: 30px;
-color: #4D8A54;
-position: relative;
-
-}
-
-.footer-mid i{
-    color: #4D8A54;
-    position: relative;
-    font-size: 20px;
-}
-
-.footer-mid p{
-    margin-left: 30px;
-   margin-top: -27px;
-   
-}
-
-.footer-right p{
-   
-    margin-top: -6px;
-   
-}
-
-.footer-right input{
-    position:absolute;
-  margin-top: -10px;
-    width: 310px;
-    height: 20px;
-    border-radius: 40px;
-    padding: 20px;
-border: none;
-    font-size: 17px;
-    font-weight: bold;
-}
-
-.footer-right button{
-    height: 60px;
+.opentime button{
+    height: 50px;
     line-height: 39px;
-    width: 150px;
+    width: 200px;
     padding: 0 20px;
     text-align: center;
     white-space: nowrap;
     border: none;
     border-radius: 40px;
-    color: #fff;
+    color:#4d8a54;
     font-size: 18px;
     font-weight: bold;
-    background-color: #4d8a54;
-    margin-left: 200px;
-    margin-top: -10px;
+    background-color: white;
+   
     position: relative;
 }
 
 
-.footer-right button:hover{
-
-  background-color: rgb(10, 56, 21);
-  color: #122515;
-  transition: all 0.25s linear;
- 
-}
+.opentime button:hover {
+    background-color: rgb(125, 214, 146);
+    color: #122515;
+    transition: all 0.25s linear;
+  }
 
 
+  .opentime .teahousefont{
+    
+color: rgb(20, 255, 16);
+margin-left: 60px;
 
-.news img{
-width: 100%;
-border-radius: 5px;
+  }
 
-}
 
-.news figcaption{
+  
+  .opentime p{
+    margin-top: -20px;
     text-align: start;
-    font-size: 18px;
+    color: white;
     font-weight: bold;
+  }
+
+  .opentime h3{
+    text-align: start;
+    color: white;
+    font-weight: bold;
+    line-height: 1.5;
+  }
+
+  .opentime-img img{
+    
+    width: 26%;
+    position: relative;
+    margin-left: 790px;
+    
+  }
+
+  .opentime-all{
+   margin: 0 100px;
+   display: flex;
+   
+  }
+
+  /*menu hom nay*/
+.list-btn{
+    margin: 0 100px;
+    text-align: center;
+  
+}
+
+.list-btn button{
+    height: 50px;
+  line-height: 39px;
+  width: 150px;
+  padding: 0 20px;
+  text-align: center;
+  white-space: nowrap;
+  border-width: thin;
+  
+  border-color: darkgrey;
+  border-radius: 40px;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #ffffff;
+  margin-left: 20px;
+  position: relative;
 }
 
 
+.list-btn button:hover {
+    background-color: #4D8A54;
+    color: #ffffff;
+    transition: all 0.25s linear;
+  }
 
 
-.news{
+.list-item{
+    background-color: bisque;
     display: flex;
-    margin: 0 30px;
+    margin: 0 120px;
+    position: relative;
+    flex-wrap: wrap;
+    
     
 }
 
+.list-item img{
+    width: 10%;
+}
 
+
+
+/*above footer*/
+.above-footer {
+  display: flex;
+}
+
+.above-footer img {
+  width: 100%;
+}
+
+
+/*FOOTER*/
+
+.footer-bg {
+  background-image: url(../images/tea-herb-with-orchid-flower-bamboo-black-surface.jpg);
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10%;
+}
+
+.layer {
+  background-color: rgba(17, 19, 17, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.footer-left {
+  width: 400px;
+}
+
+.footer-mid {
+  width: 400px;
+
+  margin-top: 128px;
+}
+
+.footer-right {
+  width: 400px;
+
+  margin-top: 128px;
+}
+
+.all-footer {
+  margin-top: -100px;
+}
+
+#footer-content-left {
+  color: white;
+  position: absolute;
+  width: 350px;
+  margin-top: -30px;
+  font-size: 17px;
+  text-align: justify;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+.footer-content-mid {
+  color: white;
+  position: absolute;
+  width: 300px;
+  font-weight: bolder;
+  font-size: 17px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.footer-content-right {
+  color: white;
+  position: absolute;
+  width: 350px;
+  font-weight: bolder;
+  font-size: 17px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.footer-mid h2 {
+  color: #4d8a54;
+  position: relative;
+  font-weight: bold;
+}
+
+.footer-right h2 {
+  color: #4d8a54;
+  position: relative;
+  font-weight: bold;
+}
+
+#logo-footer {
+  width: 270px;
+  margin-top: -50px;
+  margin-left: -50px;
+  position: relative;
+}
+
+.all-footer {
+  display: flex;
+  margin-left: 30px;
+}
+
+.icon {
+  margin-top: 130px;
+  margin-left: -30px;
+}
+
+.icon i {
+  padding-left: 30px;
+  color: #4d8a54;
+  position: relative;
+}
+
+.footer-mid i {
+  color: #4d8a54;
+  position: relative;
+  font-size: 20px;
+}
+
+.footer-mid p {
+  margin-left: 30px;
+  margin-top: -27px;
+}
+
+.footer-right p {
+  margin-top: -6px;
+}
+
+.footer-right input {
+  position: absolute;
+  margin-top: -10px;
+  width: 310px;
+  height: 20px;
+  border-radius: 40px;
+  padding: 20px;
+  border: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.footer-right button {
+  height: 60px;
+  line-height: 39px;
+  width: 150px;
+  padding: 0 20px;
+  text-align: center;
+  white-space: nowrap;
+  border: none;
+  border-radius: 40px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #4d8a54;
+  margin-left: 200px;
+  margin-top: -10px;
+  position: relative;
+}
+
+.footer-right button:hover {
+  background-color: rgb(10, 56, 21);
+  color: #122515;
+  transition: all 0.25s linear;
+}
+
+.news img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.news figcaption {
+  text-align: start;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.news {
+  display: flex;
+  margin: 0 120px;
+}
