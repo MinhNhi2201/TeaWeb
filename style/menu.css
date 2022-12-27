@@ -104,6 +104,9 @@ html {
   #menu ul li {
     width: calc(100%);
   }
+  .banner {
+    width: 100%;
+  }
 
   #menu-item {
     display: none;
