@@ -26,23 +26,27 @@
       rel="stylesheet"
     />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/payment.css" />
+    <link
       rel="shortcut icon"
       href="./images/Tea House.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="./style/contact.css" />
-    <title>Contact</title>
+    <title>Payment</title>
   </head>
   <body>
     <div class="header1">
       <ul class="header">
         <li>
-          <a href="./main.html">
-            <img
-              src="./images/Tea House.png"
-              alt=""
-              style="width: 25%; height: 25%"
-            />
+          <a href="/main.html">
+            <i class="fa-solid fa-house"></i>
+            Trang chủ
           </a>
         </li>
         <span class="head1">
@@ -65,53 +69,86 @@
         </span>
       </ul>
     </div>
-    <div class="containerr">
-      <div class="map container-item">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.2442067057414!2d106.80176721458054!3d10.869021460450309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175273f63e36af5%3A0x37f0eeb81585394c!2zVUlULSBD4buVbmcgQw!5e0!3m2!1svi!2s!4v1671464333726!5m2!1svi!2s"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-      </div>
+    <div class="container">
       <div class="form container-item">
-        <img src="./images/contact.png" alt="" srcset="" />
+        <h2><b>Thông tin nhận hàng</b></h2>
 
         <ul>
-          <li>
-            <p>
-              Hãy liên hệ ngay với chúng tôi để nhận được nhiều ưu đãi hấp dẫn
-              dành cho bạn!
-            </p>
-          </li>
-          <li>
-            <i class="fa-solid fa-location-dot"></i><b>Địa chỉ:</b> Khu phố 6,
-            Linh Trung, Thủ Đức, HCM
-          </li>
-          <li>
-            <i class="fa-solid fa-envelope"></i
-            ><b>Email:</b> hellocafein@gmail.com
-          </li>
           <li><i class="fa-solid fa-phone"></i><b>Hotline:</b> 1900 6750</li>
-          <li><input type="text" name="" id="" placeholder="Họ và tên*" /></li>
-          <li><input type="email" placeholder="Email*" /></li>
-          <li><input type="text" name="" id="" placeholder="Điện thoại*" /></li>
-
           <li>
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Họ và tên *"
+              required
+            />
+          </li>
+          <li><input type="email" placeholder="Email *" required /></li>
+          <li>
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Điện thoại *"
+              required
+            />
+          </li>
+          <li>
+            <input type="text" name="" id="" placeholder="Địa chỉ *" required />
+          </li>
+          <li>
+            <textarea name="" id="" placeholder="Ghi chú (tùy chọn)"></textarea>
+          </li>
+        </ul>
+      </div>
+      <div class="form container-item">
+        <h2 id="h22"><b>Đơn hàng</b></h2>
+
+        <ul>
+          <li class="donhang-li">
+            <img
+              src="./images/drink/travietquoc.png"
+              alt=""
+              style="max-width: 15%; max-height: 15%"
+            />
+            <p style="width: 35%">25 000 vnđ</p>
+          </li>
+          <li class="donhang-li">
+            <input
+              type="text"
+              name=""
+              id="donhang-li-input"
+              placeholder="Code"
+              style="width: 55%"
+            />
+            <button>Áp dụng</button>
+          </li>
+          <li class="donhang-li">
+            <p style="text-align: start; justify-content: start">
+              Phí vận chuyển
+            </p>
+            <p>15 000 vnđ</p>
+          </li>
+          <li class="donhang-li">
+            <p style="text-align: start; justify-content: start; color: red">
+              Tổng cộng
+            </p>
+            <p p style="color: red">40 000 vnđ</p>
+          </li>
+
+          <li style="text-align: center">
             <button
               type="button"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
+              style="width: 70%"
             >
-              Gửi thông tin
+              Đặt hàng
             </button>
           </li>
         </ul>
       </div>
-      <!-- modal -->
       <!-- Modal -->
       <div
         class="modal fade"
@@ -123,25 +160,23 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5
-                class="modal-title"
-                id="exampleModalLabel"
-                style="color: #4d8a54; font-size: 18px"
-              >
-                Thành công
-              </h5>
               <button
-                class="btn-close"
                 type="button"
+                class="btn-close"
                 data-bs-dismiss="modal"
                 aria-label="Close"
               ></button>
             </div>
             <div class="modal-body text-center">
               <h3>
-                Cảm ơn bạn đã liên hệ với <b style="color: #4d8a54">TeaHouse</b>
+                Cảm ơn bạn đã đặt hàng tại
+                <b style="color: #4d8a54">TeaHouse</b>
               </h3>
-              <img src="./images/thanks.gif" style="width: 30%; height: 30%" />
+              <img
+                src="./images/delivery.gif"
+                style="width: 30%; height: 30%"
+              />
+              <p>Chờ TeaHouse chút nhé!</p>
             </div>
             <div class="modal-footer">
               <button

@@ -30,14 +30,13 @@ img {
 }
 .form h2 {
   margin-top: 150px;
-  overflow: hidden;
 }
 .form ul li {
   font-size: 20px;
 }
 
 .form ul li i {
-  margin-inline: 20px;
+  margin: 20px;
   font-size: 20px;
   color: #4d8a54;
 }
@@ -108,7 +107,7 @@ img {
   font-size: 17px;
   padding: 1px;
   width: 100%;
-  /* position: fixed;------------------------------------------------------- */
+  position: fixed;
 }
 
 .header {
