@@ -7,7 +7,7 @@
   margin: 0;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Quicksand", sans-serif;
   /* color: #916264;*/
   color: rgb(0, 0, 0);
 }
@@ -51,6 +51,11 @@ body {
   display: flex;
 }
 
+
+
+
+
+
 /*---------------Slider-----------*/
 
 .slider_img {
@@ -92,6 +97,11 @@ body {
   flex: 2;
   padding-left: 5%;
   margin-left: 15%;
+  margin-top: -20px;
+}
+
+#text p{
+  font-weight: normal;
 }
 
 #text h1 {
@@ -144,3 +154,5 @@ body {
   font-size: 80px;
   color: #4d8a54;
 }
+
+

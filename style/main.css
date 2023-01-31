@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Satisfy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 * {
   font-family: "Quicksand", sans-serif;
   list-style: none;
@@ -96,7 +95,7 @@ ul.sub-menu li a {
   margin-top: 100px;
 }
 
-.navbar li {
+.navbar li  {
   font-weight: bold;
   font-size: 19px;
   display: block;
@@ -130,7 +129,7 @@ ul.sub-menu li a {
 }
 
 .teahousefont {
-  font-family: "Satisfy", cursive;
+  font-family: 'Dancing Script', cursive;
   color: #4d8b55;
   text-align: center;
   font-size: 50px;
@@ -185,7 +184,7 @@ ul.sub-menu li a {
 }
 
 .teahousefont2 {
-  font-family: "Satisfy", cursive;
+  font-family: 'Dancing Script', cursive;
   color: #4d8b55;
   text-align: justify;
   font-size: 50px;
@@ -252,7 +251,7 @@ ul.sub-menu li a {
 }
 
 .opentime .teahousefont {
-  color: rgb(20, 255, 16);
+  color: rgb(179, 234, 178);
   margin-left: 60px;
 }
 
@@ -637,7 +636,7 @@ ul.sub-menu li a {
 }
 
 /* Tuy chinh hieu ung roi*/
-/*www.lutaweb.com*/
+
 @-webkit-keyframes flowers-fall {
   0% {
     top: -10%;
