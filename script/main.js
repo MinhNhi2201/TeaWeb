@@ -86,4 +86,44 @@ function topFunction() {
 
 
      
+ /* data
+ myData = {
+  "juice": [
+      {name: "TRÀ PHÚC BỒN TỬ", price: "40.000 vnđ", url: "https://bizweb.dktcdn.net/thumb/large/100/415/010/products/6.jpg?v=1608878870957"}, 
+      {name: "juice 2", price: "99$", url: "https://bizweb.dktcdn.net/thumb/large/100/415/010/products/12.jpg?v=1608878605447"}, 
+      {name: "juice 3", price: "99$", url: "https://picsum.photos/200"}, 
+      {name: "juice 4", price: "99$", url: "https://picsum.photos/200"}, 
+      {name: "juice 5", price: "99$", url: "https://picsum.photos/200"}, 
+      {name: "juice 6", price: "99$", url: "https://picsum.photos/200"}, 
+      {name: "juice 7", price: "99$", url: "https://picsum.photos/200"}, 
+      {name: "juice 8", price: "99$", url: "https://picsum.photos/200"}
+  ],
+  "cafe": [
+      {name: "cafe 1", price: "99$", url: "https://picsum.photos/200"}, 
+      {name: "cafe 2", price: "99$", url: "https://picsum.photos/200"}, 
+      {name: "cafe 3", price: "99$", url: "https://picsum.photos/200"}, 
+      {name: "cafe 4", price: "99$", url: "https://picsum.photos/200"}, 
+      {name: "cafe 5", price: "99$", url: "https://picsum.photos/200"}, 
+      {name: "cafe 6", price: "99$", url: "https://picsum.photos/200"}, 
+      {name: "cafe 7", price: "99$", url: "https://picsum.photos/200"}, 
+      {name: "cafe 8", price: "99$", url: "https://picsum.photos/200"}
+  ]
+} 
 
+document.querySelectorAll(".btn-list").forEach(e => {
+  e.addEventListener('click', ()=>{
+      console.log(e.value)
+      document.querySelector('.menu-item').innerHTML = ""
+      myData[e.value].forEach(item => {
+          document.querySelector('.menu-item').innerHTML += `
+              <div class="menu-item">
+                  <img class="img-menu" src=${item.url} alt=""> 
+                  <p class="name">${item.name}</p> 
+                  <p class="position">${item.price}</p>
+                 
+              </div>
+          `
+      })
+  })
+})
+*/
